@@ -1,0 +1,13 @@
+Oct 29, 2016 6:15:59 PM Monitor main
+INFO: Monitoring Tool Started...
+Oct 29, 2016 6:15:59 PM Monitor main
+INFO: Robot Output file successfully parsed...
+Oct 29, 2016 6:15:59 PM Monitor databaseConnect
+INFO: ----MySQL JDBC Connection Testing -------
+Oct 29, 2016 6:15:59 PM Monitor databaseConnect
+INFO: MySQL JDBC Driver Registered!
+Oct 29, 2016 6:16:00 PM Monitor databaseConnect
+WARNING: Connection Failed!:
+Access denied for user 'Admin1'@'c-73-200-162-246.hsd1.md.comcast.net' (using password: YES)
+Oct 29, 2016 6:16:00 PM Monitor databaseConnect
+WARNING: FAILURE! Failed to make connection!
