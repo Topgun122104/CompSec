@@ -1,13 +1,14 @@
-Oct 29, 2016 6:15:59 PM Monitor main
+Oct 29, 2016 8:53:01 PM Monitor main
 INFO: Monitoring Tool Started...
-Oct 29, 2016 6:15:59 PM Monitor main
+Oct 29, 2016 8:53:01 PM Monitor main
 INFO: Robot Output file successfully parsed...
-Oct 29, 2016 6:15:59 PM Monitor databaseConnect
-INFO: ----MySQL JDBC Connection Testing -------
-Oct 29, 2016 6:15:59 PM Monitor databaseConnect
-INFO: MySQL JDBC Driver Registered!
-Oct 29, 2016 6:16:00 PM Monitor databaseConnect
-WARNING: Connection Failed!:
-Access denied for user 'Admin1'@'c-73-200-162-246.hsd1.md.comcast.net' (using password: YES)
-Oct 29, 2016 6:16:00 PM Monitor databaseConnect
-WARNING: FAILURE! Failed to make connection!
+Oct 29, 2016 8:53:02 PM Monitor databaseConnect
+INFO: Admin successfully connected to WatchFloor...
+Oct 29, 2016 8:53:02 PM Monitor tableInsert
+INFO: com.mysql.jdbc.JDBC42PreparedStatement@68de145: insert into Sample(Record_ID, Athlete_ID, Date_Aquired, Time_Aquired, Time_Analyzed, Sample_Mass, PPM, Date_Disposal, Time_Disposal)values (1, 12345, '2016-10-29', '17:45:00', '17:45:35', 130.0, 10.0, '2016-05-11', '12:00:00') was successfully executed by Admin!
+Oct 29, 2016 8:53:02 PM Monitor databaseConnect
+INFO: Admin successfully connected to WatchFloor...
+Oct 29, 2016 8:53:02 PM Monitor tableInsert
+INFO: com.mysql.jdbc.JDBC42PreparedStatement@25f38edc: insert into Sample(Record_ID, Athlete_ID, Date_Aquired, Time_Aquired, Time_Analyzed, Sample_Mass, PPM, Date_Disposal, Time_Disposal)values (2, 67891, '2016-05-17', '09:56:01', '09:57:43', 120.0, 5.0, '2016-05-24', '12:00:00') was successfully executed by Admin!
+Oct 29, 2016 8:53:02 PM Monitor main
+INFO: 2 new DB entries successfully added!
